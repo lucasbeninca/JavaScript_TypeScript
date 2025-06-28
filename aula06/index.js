@@ -8,6 +8,12 @@
 // Posso usar acentos, mas é recomendado evitar para manter a compatibilidade com outros sistemas
 // Posso usar camelCase, snake_case ou kebab-case para nomear variáveis,
 // mas é recomendado usar camelCase para variáveis e snake_case para constantes
+// não podemos redeclarar variáveis com o mesmo nome usando let ou const, mas podemos com var
+// Posso declarar várias variáveis na mesma linha, mas é recomendado declarar uma por linha para
+// manter a legibilidade do código
+// Posso usar aspas simples ou duplas para strings, mas é recomendado usar aspas simples para manter a consistência
+// Posso usar template literals (crase) para criar strings
+// que podem conter variáveis e expressões
 let nome = 'Otávio';
 
 console.log(nome,' nasceu em 1984.');
