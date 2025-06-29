@@ -26,11 +26,14 @@
 
 const primeiroNumero = 10;
 const segundoNumero = 20;
+const terceiroNumero = '30';
+const quartoNumero = 40;
 
 const conta = primeiroNumero + segundoNumero;
 
 console.log(`A soma de ${primeiroNumero} e ${segundoNumero} é igual a ${conta}.`);
 
-console.log(typeof primeiroNumero); // number
+console.log(typeof primeiroNumero);
+console.log(typeof (terceiroNumero + quartoNumero)); 
 
 
