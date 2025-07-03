@@ -13,7 +13,8 @@
 const num2 = prompt("Digite o primeiro número:");
 const num3 = prompt("Digite o segundo número:");
 
+alert(`A soma dos números é: ${somaNumber(num1) + Number(num3)}`);
+ 
 
-const soma = Number(num2) + Number(num3);
 
-alert(`A soma dos números é: ${soma}`);
+
